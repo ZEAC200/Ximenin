@@ -1,0 +1,85 @@
+body {
+    color: #4A1F0D;
+    background-image: radial-gradient(#E33333 0.5px, transparent 0.5px), 
+    radial-gradient(#E33333 0.5px, #F8EFD4 0.5px);
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    background-size: 20px 20px;
+    background-position: 0 0,10px 10px;
+}
+
+#Caja_encabezado{
+    background-color: #AC2030;
+}
+
+#Texto_Cuerpo {
+    text-align: justify;
+}
+
+#Texto_Cuerpo > h1{
+    color:#8a0f0f;
+    text-align: center;
+}
+
+#Texto_Cuerpo2 {
+    text-align: justify;
+    padding-right: 10%;
+    vertical-align: auto;
+}
+
+#Texto_Cuerpo3 {
+    text-align: justify;
+    padding-left: 1%;
+    vertical-align: auto;
+}
+
+#Video {
+    text-align: left;
+    float: left;
+}
+
+a {
+    outline: none;
+    text-decoration: none;
+    padding: 1px 1px 0;
+}
+  
+a:link {
+    color: #4A1F0D;
+}
+  
+a:visited {
+    color: #4A1F0D;
+}
+
+.Imagen {
+    width: 30%;
+    margin-top: 0.5%;
+    margin-left: 1%;
+    float: right;
+}
+
+.Menú  {
+    border: 3% solid #AC2030;
+    background-color: #a91c2c;
+    padding: 0.8%;
+    display: inline;
+    float: left;
+    color: #4A1F0D;
+}
+
+.Palabra_menú  {    
+    color: #4A1F0D;
+}
+
+.Encabezado  { /*Sirve para dar el fondo y espacio que se ve en el encabezado junto al menú*/
+    border: solid #AC2030; 
+    border-top: 1px; 
+    border-bottom: 1px;
+    text-align: center;
+    color: #700c0c;
+}
+
+p {
+    font-size: 110%;
+    color:#4A1F0D;
+}
